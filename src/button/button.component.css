@@ -1,8 +1,9 @@
-svg {
-  height:100vh;
-}
+
 
 app-icon {
+  position: relative;
+  bottom: 22px;
   display: flex;
   justify-content: center;
+  z-index: initial;
 }
