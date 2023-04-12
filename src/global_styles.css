@@ -1,0 +1,53 @@
+/* Add application styles & imports to this file! */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  background-color: #f0f0f0;
+  font-family: poppins;
+  font-weight: 700;
+  padding: 10px;
+}
+form {
+  display: flex;
+}
+section {
+  padding-top:20px;
+  background-color: #ffffff;
+  border-radius: 24px 24px 100px 24px;
+  height: 400px;
+}
+label {
+  color: #716f6f;
+}
+fieldset {
+  border: none;
+}
+
+input[type="number"] {
+  font-family: poppins;
+  font-size:20px;
+  font-weight: 800;
+  width: 50px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.date {
+  color: #854dff;
+}
+hr {
+  border-top-color: lightgrey;
+  margin: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
