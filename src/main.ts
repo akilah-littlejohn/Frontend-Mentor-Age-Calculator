@@ -8,6 +8,8 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
+  <h1>Age Calculator</h1>
+
   <section>
   <form action="">
     <fieldset class="fieldset">
@@ -27,9 +29,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
 
   </form>
   <hr>
-  <h1><span class="date">38</span>Years</h1>
-  <h1><span class="date">3</span> months</h1>
-  <h1> <span class="date">26</span> days</h1>
+  <h1 class="output"><span class="date">38</span>Years</h1>
+  <h1 class="output"><span class="date">3</span> months</h1>
+  <h1 class="output" > <span class="date">26</span> days</h1>
 </section>
   `,
 })
