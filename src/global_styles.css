@@ -50,9 +50,9 @@ input[type='number'] {
 hr {
   position:relative;
   bottom: -30px;
-  border-top-color:#eee;
-  border-width: 1.5px;
-  opacity: 0.1;
+  border-top-color:lightgrey;
+  border-width: 1px;
+  opacity: 0.5;
   margin: 20px;
   
 }
