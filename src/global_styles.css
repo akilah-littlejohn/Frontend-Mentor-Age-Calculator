@@ -9,8 +9,8 @@ body {
 }
 .center-items {
   display: flex;
-  justify-content: center; /* centers items horizontally */
-  align-items: center; /* centers items vertically */
+  justify-content: center;
+  align-items: center; 
 }
 
 form {
