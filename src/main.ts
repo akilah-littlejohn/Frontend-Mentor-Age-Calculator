@@ -35,7 +35,6 @@ import { bootstrapApplication } from '@angular/platform-browser';
 </section>
   `,
 })
-export class App {
-}
+export class App {}
 
 bootstrapApplication(App);
