@@ -1,3 +1,8 @@
 svg {
   height:100vh;
 }
+
+app-icon {
+  display: flex;
+  justify-content: center;
+}

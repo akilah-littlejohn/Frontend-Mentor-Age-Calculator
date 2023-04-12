@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   standalone:true
 })
 export class AgeOutputComponent implements OnInit {
-
+date:number|string = '--'
   constructor() { }
 
   ngOnInit() {
