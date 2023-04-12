@@ -10,10 +10,10 @@ import { AgeOutputComponent } from './age-output/age-output.component';
   standalone: true,
   imports: [CommonModule, FormComponent, AgeOutputComponent],
   template: `
-  <h1 class="title">Age Calculator</h1>
+  <h1 class="center-items">Age Calculator</h1>
 
   <section>
-<app-form></app-form>
+<app-form class="center-items"></app-form>
   <hr>
 <app-age-output></app-age-output>
 </section>

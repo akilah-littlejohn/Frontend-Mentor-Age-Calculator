@@ -7,12 +7,15 @@ body {
   font-weight: 700;
   padding: 10px;
 }
-.title {
+.center-items {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* centers items horizontally */
+  align-items: center; /* centers items vertically */
 }
+
 form {
   display: flex;
+
 }
 section {
   padding-top:20px;
