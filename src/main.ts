@@ -12,7 +12,7 @@ import { IconComponent } from './icon/icon.component';
   standalone: true,
   imports: [CommonModule, FormComponent, AgeOutputComponent, ButtonComponent,IconComponent],
   template: `
-<h1 class="center-items">Age Calculator</h1>
+<h1 class="center-items title">Age Calculator</h1>
 <section class="center-container">
   <app-form class="center-items"></app-form>
   <app-button></app-button>
