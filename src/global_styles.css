@@ -47,7 +47,11 @@ input[type="number"] {
   margin-right:10px;
 }
 hr {
-  border-top-color: #eee;
+  border-top-color:lightgrey;
+  border-width: 1.5px;
+
+    opacity: 0.1;
+
   margin: 20px;
 }
 
