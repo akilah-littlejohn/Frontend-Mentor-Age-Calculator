@@ -13,10 +13,10 @@ import { IconComponent } from './icon/icon.component';
   imports: [CommonModule, FormComponent, AgeOutputComponent, ButtonComponent,IconComponent],
   template: `
 <h1 class="center-items">Age Calculator</h1>
-<section>
+<section class="center-container">
   <app-form class="center-items"></app-form>
   <app-button></app-button>
-  <app-age-output></app-age-output>
+  <app-age-output ></app-age-output>
 </section>
   `,
 })
