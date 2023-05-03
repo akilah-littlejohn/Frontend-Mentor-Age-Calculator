@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
+import { FormService } from '../form.service';
 
 @Component({
   selector: 'app-form',
@@ -7,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   standalone:true
 })
 export class FormComponent implements OnInit {
-
-  constructor() { }
+  calcForm = inject(FormService)
 
   ngOnInit() {
+    this.calcForm
+
   }
 
 }
