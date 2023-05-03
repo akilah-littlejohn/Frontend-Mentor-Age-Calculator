@@ -8,10 +8,7 @@ import { FormService } from '../form.service';
   standalone:true
 })
 export class FormComponent implements OnInit {
-  calcForm = inject(FormService)
-
   ngOnInit() {
-    this.calcForm
 
   }
 
