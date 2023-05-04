@@ -8,8 +8,10 @@ import { FormService } from '../form.service';
   standalone:true
 })
 export class FormComponent implements OnInit {
-  ngOnInit() {
+  
 
+  ngOnInit() {
+    const formService = inject(FormService)
   }
 
 }
