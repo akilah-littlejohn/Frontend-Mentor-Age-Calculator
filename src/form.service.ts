@@ -1,18 +1,12 @@
 import { Injectable } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Injectable({
   providedIn:'root'
 })
 export class FormService {
-  #fb: FormBuilder;
-  form: FormGroup;
-
-  includeForm(form:FormGroup){
-    this.form = form
-  }
-  ageValidation() {
-    this.form = this.#fb.group({
+  ageValidation(form:FormBuilder) {
+    form.group({
       day: ['', [Validators.required, Validators.min(1), Validators.max(31)]],
       month: ['', [Validators.required, Validators.min(1), Validators.max(12)]],
       year: [

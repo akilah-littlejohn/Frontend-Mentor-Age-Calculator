@@ -14,7 +14,7 @@ export class FormComponent implements OnInit {
   calcForm: FormGroup;
 
   ngOnInit() {
-    this.formService.includeForm(this.calcForm);
+   
   }
 
 }
