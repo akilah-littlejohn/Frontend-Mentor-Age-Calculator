@@ -1,19 +1,20 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { FormService } from '../form.service';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css'],
-  standalone:true
+  standalone: true,
 })
-export class FormComponent implements OnInit {
+export class FormComponent implements OnInit {\
+  
+  formService = inject(FormService);
+  calcForm: FormGroup;
 
-   formService = inject(FormService)  
   ngOnInit() {
-    
-
+    this.formService.includeForm(this.calcForm);
   }
 
 }

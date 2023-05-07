@@ -8,6 +8,9 @@ export class FormService {
   #fb: FormBuilder;
   form: FormGroup;
 
+  includeForm(form:FormGroup){
+    this.form = form
+  }
   ageValidation() {
     this.form = this.#fb.group({
       day: ['', [Validators.required, Validators.min(1), Validators.max(31)]],
