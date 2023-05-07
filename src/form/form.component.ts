@@ -1,6 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { FormService } from '../form.service';
-import { FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-form',
@@ -11,10 +11,12 @@ import { FormGroup } from '@angular/forms';
 export class FormComponent implements OnInit {
 
   formService = inject(FormService);
-  calcForm: FormGroup;
+  calcForm: FormBuilder;
 
   ngOnInit() {
-   
+   this.formService.ageValidation(this.calcForm);
+   this.formService.dateValidator(this.calcForm.control);
+   this.formService.futureYearValidator(this.calcForm.control)
   }
 
 }
