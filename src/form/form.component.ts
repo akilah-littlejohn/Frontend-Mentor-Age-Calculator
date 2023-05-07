@@ -10,9 +10,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FormComponent implements OnInit {
 
-constructor(public formService:FormService){}
+
   ngOnInit() {
-  
+    const formService = inject(FormService)
+    
 
   }
 
