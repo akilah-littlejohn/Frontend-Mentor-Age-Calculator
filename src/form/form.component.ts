@@ -12,8 +12,7 @@ export class FormComponent implements OnInit {
 
 
   ngOnInit() {
-    const formService = inject(FormService)
-    
+    const formService = inject(FormService)  
 
   }
 
