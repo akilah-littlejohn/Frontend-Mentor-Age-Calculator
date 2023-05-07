@@ -8,8 +8,8 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./form.component.css'],
   standalone: true,
 })
-export class FormComponent implements OnInit {\
-  
+export class FormComponent implements OnInit {
+
   formService = inject(FormService);
   calcForm: FormGroup;
 
