@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-@Injectable()
+@Injectable({
+  providedIn:'root'
+})
 export class FormService {
   #fb: FormBuilder;
   form: FormGroup;
