@@ -33,7 +33,7 @@ fieldset {
   border: none;
 }
 
-input[type='number'] {
+input[type='text'] {
   font-family: poppins;
   font-size: 20px;
   font-weight: 800;
